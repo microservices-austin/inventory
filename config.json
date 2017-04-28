@@ -1,0 +1,19 @@
+{
+  "commands": [
+    "transferInventory",
+    "adjustInventory",
+    "pickInventory"
+  ],
+  "events": [
+    "inventoryTransferred",
+    "inventoryPicked",
+    "inventoryAdjusted",
+    "inventoryReceived",
+    "inventoryAdjustFailed",
+    "inventoryReceiveFailed",
+    "inventoryPickFailed",
+    "inventoryTransferFailed"
+  ],
+  "service_name": "inventory",
+  "port": "8090"
+}
